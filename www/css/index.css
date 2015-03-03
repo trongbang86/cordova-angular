@@ -1,0 +1,27 @@
+html, body {height: 100%;}
+
+body { padding-top: 55px; }
+
+#mycontainer{
+	height: 100%;
+	min-height: 100%;	
+}
+
+#content{
+   overflow-y: scroll;
+   height: 70%;
+}
+
+#footer{
+	position:absolute; 
+	bottom: 0px;
+	width: 100%;
+}
+
+.bigbutton{
+	width: 100%;
+}
+
+.removePadding{
+	padding:0;
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cordova AngularJS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="lib/respond.js"></script>
+</head>
+
+<body onload="init()" ng-app>
+<div class="container-fluid" style="position: relative;" id="mycontainer">
+    <div id="menu" class="row"  data-ng-include data-src="'partials/menu.html'"></div>
+    <div class="row" id="content">
+    	{{"this is a text".repeat(44444)}}
+    </div>
+    <div class="row" id="footer">
+    	<div class="col-xs-6 removePadding">
+    		<button type="button" class="btn btn-danger bigbutton btn-lg">BAD</button>
+    	</div>
+    	<div class="col-xs-6 removePadding">
+    		<button type="button" class="btn btn-success bigbutton btn-lg">GOOD</button>
+    	</div>
+    </div>
+</div> <!-- end container -->
+
+<!-- javascript -->
+	<script src="cordova.js"></script>
+	<script src="js/index.js"></script>
+	<script src="lib/jquery-1.11.1.js"></script>
+	<script src="lib/angular.js"></script>
+	<script src="lib/angular-route.js"></script>
+    <script src="lib/bootstrap.js"></script>
+</body>
+</html>

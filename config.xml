@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.sh.cordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cordova Angular</name>
+    <description>
+        A sample project for Cordova with AngularJS and Bootstrap
+    </description>
+    <author email="support@studyhorror.com" href="http://studyhorror.com">
+        StudyHorror Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
